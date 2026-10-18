@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ipak Yo'li Tour — O'zbekiston bo'ylab sayohatlar</title>
+<meta name="description" content="Samarqand, Buxoro, Xiva va butun O'zbekiston bo'ylab tur paketlari. Mehmonxona, chipta va gid xizmatlari bir joyda.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ Qayta ishlatiladigan SVG shakllar (gumbaz ikonkasi va yulduz naqsh) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="dome-icon" viewBox="0 0 200 160">
+      <rect x="18" y="55" width="12" height="90" rx="2"/>
+      <polygon points="14,55 36,55 24,36"/>
+      <circle cx="24" cy="31" r="3"/>
+      <rect x="170" y="55" width="12" height="90" rx="2"/>
+      <polygon points="164,55 188,55 176,36"/>
+      <circle cx="176" cy="31" r="3"/>
+      <rect x="55" y="95" width="90" height="50"/>
+      <path d="M70,95 C70,55 70,40 100,15 C130,40 130,55 130,95 Z"/>
+      <rect x="97" y="6" width="6" height="12"/>
+      <circle cx="100" cy="4" r="4"/>
+    </symbol>
+    <pattern id="starPattern" width="48" height="48" patternUnits="userSpaceOnUse">
+      <rect x="12" y="12" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1"/>
+      <rect x="12" y="12" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1" transform="rotate(45 24 24)"/>
+    </pattern>
+  </defs>
+</svg>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a href="#home" class="logo">
+      <span class="logo-mark"><svg viewBox="0 0 200 160"><use href="#dome-icon"/></svg></span>
+      <span class="logo-text">Ipak Yo'li<em>TOUR</em></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">Bosh sahifa</a>
+      <a href="#about">Biz haqimizda</a>
+      <a href="#packages">Turlar</a>
+      <a href="#services">Xizmatlar</a>
+      <a href="#gallery">Galereya</a>
+      <a href="#blog">Maqolalar</a>
+      <a href="#contact" class="nav-cta  aloqa">Bog'lanish</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Menyuni ochish" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <svg class="hero-pattern" aria-hidden="true"><rect width="100%" height="100%" fill="url(#starPattern)"/></svg>
+  <div class="wrap hero-inner">
+    <div class="hero-text reveal">
+      <p class="eyebrow">Buyuk Ipak Yo'li bo'ylab</p>
+      <h1>Registon tepasidan<br>Qizilqum sahrosigacha</h1>
+      <p class="hero-lead">Ming yillik tarix, hunarmandchilik va mehmondo'stlik — O'zbekistonning eng go'zal shaharlarini biz bilan kashf eting.</p>
+      <div class="hero-actions">
+        <a href="#packages" class="btn btn-primary">Turlarni ko'rish</a>
+        <a href="#contact" class="btn btn-outline">Bog'lanish</a>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal" aria-hidden="true">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Registan_01.jpg?width=1600" alt="" fetchpriority="high">
+      <div class="hero-photo-caption"><span>Samarqand</span><strong>Tarix har qadamda</strong></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT / STATISTIKA ============ -->
+<section class="section" id="about">
+  <div class="wrap about-grid">
+    <div class="reveal">
+      <p class="eyebrow">Biz haqimizda</p>
+      <h2>12 yildan beri sayohatlaringizni unutilmas qilamiz</h2>
+      <p class="lead-text">Ipak Yo'li Tour — mahalliy gidlar jamoasi tomonidan tuzilgan sayohat agentligi. Biz shaharlarni shunchaki ko'rsatmaymiz, balki har bir manzilning tarixi va odamlari bilan tanishtiramiz. Kichik guruhlar, moslashuvchan marshrutlar va halol narxlar — bizning asosiy tamoyillarimiz.</p>
+    </div>
+    <div class="stats reveal">
+      <div class="stat">
+        <span class="stat-num" data-count="500">0</span><span class="stat-suffix">+</span>
+        <p>Mamnun mehmonlar</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="40">0</span><span class="stat-suffix">+</span>
+        <p>Tur yo'nalishlari</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="12">0</span>
+        <p>Yillik tajriba</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="24">0</span><span class="stat-suffix">/7</span>
+        <p>Qo'llab-quvvatlash</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<svg class="motif-divider" aria-hidden="true"><rect width="100%" height="100%" fill="url(#starPattern)"/></svg>
+
+<!-- ============ TUR PAKETLARI ============ -->
+<section class="section" id="packages">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Mashhur yo'nalishlar</p>
+      <h2>Sizga mos tur paketini tanlang</h2>
+    </div>
+
+    <div class="card-grid" id="packageGrid">
+      <!-- Kartochkalar JavaScript uchun ma'lumot atributlari bilan: data-trip -->
+      <article class="tour-card reveal card--teal">
+        <div class="tour-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Registan_01.jpg?width=1000" alt="Samarqanddagi Registon maydoni" loading="lazy"><span class="tour-photo-label">Samarqand</span></div>
+        <h3>Samarqand</h3>
+        <p>Registon maydoni va Amir Temur merosi bilan tanishuv</p>
+        <div class="tour-meta"><span>3 kun / 2 tun</span><span>dan 1 200 000 so'm</span></div>
+        <button class="btn btn-book" data-trip="Samarqand">Band qilish</button>
+      </article>
+
+      <article class="tour-card reveal card--gold">
+        <div class="tour-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Kalyan_Minaret_Mosque_and_Amir_Alimkhaon_Madrasa_1.jpg?width=1000" alt="Buxorodagi Minorai Kalon va madrasa" loading="lazy"><span class="tour-photo-label">Buxoro</span></div>
+        <h3>Buxoro</h3>
+        <p>Minglab yillik tarixiy ko'chalar va madrasalar</p>
+        <div class="tour-meta"><span>2 kun / 1 tun</span><span>dan 950 000 so'm</span></div>
+        <button class="btn btn-book" data-trip="Buxoro">Band qilish</button>
+      </article>
+
+      <article class="tour-card reveal card--clay">
+        <div class="tour-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Itchan_Kala_Khiva_2012.jpg?width=1000" alt="Xivadagi Ichan Qal'a manzarasi" loading="lazy"><span class="tour-photo-label">Xiva</span></div>
+        <h3>Xiva</h3>
+        <p>Ichan Qal'a — ochiq osmon ostidagi ertaklar shahri</p>
+        <div class="tour-meta"><span>2 kun / 1 tun</span><span>dan 1 050 000 so'm</span></div>
+        <button class="btn btn-book" data-trip="Xiva">Band qilish</button>
+      </article>
+
+      <article class="tour-card reveal card--teal">
+        <div class="tour-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ferghana_Valley_UZB.JPG?width=1000" alt="Farg'ona vodiysining yashil manzarasi" loading="lazy"><span class="tour-photo-label">Farg'ona vodiysi</span></div>
+        <h3>Farg'ona vodiysi</h3>
+        <p>Hunarmandchilik ustaxonalari va tog' manzaralari</p>
+        <div class="tour-meta"><span>3 kun / 2 tun</span><span>dan 1 350 000 so'm</span></div>
+        <button class="btn btn-book" data-trip="Farg'ona vodiysi">Band qilish</button>
+      </article>
+
+      <article class="tour-card reveal card--gold">
+        <div class="tour-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kyzylkum_Desert_in_Uzbekistan.jpg?width=1000" alt="Qizilqum sahrosining keng manzarasi" loading="lazy"><span class="tour-photo-label">Qizilqum</span></div>
+        <h3>Nurota cho'li</h3>
+        <p>Yurtda tunash, tuya sayri va sahroda yulduzlar</p>
+        <div class="tour-meta"><span>1 kun / 1 tun</span><span>dan 800 000 so'm</span></div>
+        <button class="btn btn-book" data-trip="Nurota cho'li">Band qilish</button>
+      </article>
+
+      <article class="tour-card reveal card--clay">
+        <div class="tour-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chorsu_Bazaar_in_Tashkent.jpg?width=1000" alt="Toshkentdagi Chorsu bozori" loading="lazy"><span class="tour-photo-label">Toshkent</span></div>
+        <h3>Toshkent</h3>
+        <p>Zamonaviy metro stansiyalari va Chorsu bozori</p>
+        <div class="tour-meta"><span>1 kunlik shahar turi</span><span>dan 350 000 so'm</span></div>
+        <button class="btn btn-book" data-trip="Toshkent">Band qilish</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ XIZMATLAR ============ -->
+<section class="section section-alt" id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Xizmatlarimiz</p>
+      <h2>Sayohatingizning har bir bosqichi nazoratda</h2>
+    </div>
+
+    <div class="service-grid">
+      <div class="service reveal">
+        <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 34V12a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v6h16v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 26h38v8H6z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="13" cy="20" r="2.4" fill="currentColor"/></svg>
+        <h3>Mehmonxona bron qilish</h3>
+        <p>Ishonchli mehmonxonalarda byudjetingizga mos qulay turar joy tanlaymiz.</p>
+      </div>
+
+      <div class="service reveal">
+        <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 24 40 8l-8 16 8 16Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M6 24h20" fill="none" stroke="currentColor" stroke-width="2.2"/></svg>
+        <h3>Chipta va transport</h3>
+        <p>Poyezd, avtobus chiptalari va shaharlararo yo'lovchi tashish xizmati.</p>
+      </div>
+
+      <div class="service reveal">
+        <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M30 18 22 22 18 30l8-4Z" fill="currentColor"/></svg>
+        <h3>Mahalliy gid xizmati</h3>
+        <p>Tarix va madaniyatni chuqur biladigan tajribali gidlar hamrohligida.</p>
+      </div>
+
+      <div class="service reveal">
+        <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 36c4-16 12-24 16-24s12 8 16 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="24" cy="18" r="4" fill="currentColor"/></svg>
+        <h3>Individual marshrut</h3>
+        <p>Sizning vaqtingiz va qiziqishlaringizga mos maxsus dastur tuzamiz.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALEREYA ============ -->
+<section class="section" id="gallery">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Galereya</p>
+      <h2>Sayohat lavhalaridan namunalar</h2>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid">
+      <button class="gallery-item card--teal" data-caption="Registon maydoni — Samarqand" data-image="https://commons.wikimedia.org/wiki/Special:FilePath/Registan_01.jpg?width=1600">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Registan_01.jpg?width=900" alt="Registon maydoni, Samarqand" loading="lazy">
+        <span>Registon maydoni</span>
+      </button>
+      <button class="gallery-item card--gold" data-caption="Ichan Qal'a — Xiva" data-image="https://commons.wikimedia.org/wiki/Special:FilePath/Itchan_Kala_Khiva_2012.jpg?width=1600">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Itchan_Kala_Khiva_2012.jpg?width=900" alt="Ichan Qal'a, Xiva" loading="lazy">
+        <span>Ichan Qal'a</span>
+      </button>
+      <button class="gallery-item card--clay" data-caption="Kalon minorasi — Buxoro" data-image="https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Kalyan_Minaret_Mosque_and_Amir_Alimkhaon_Madrasa_1.jpg?width=1600">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Kalyan_Minaret_Mosque_and_Amir_Alimkhaon_Madrasa_1.jpg?width=900" alt="Minorai Kalon, Buxoro" loading="lazy">
+        <span>Kalon minorasi</span>
+      </button>
+      <button class="gallery-item card--gold" data-caption="Chorsu bozori — Toshkent" data-image="https://commons.wikimedia.org/wiki/Special:FilePath/Chorsu_Bazaar_in_Tashkent.jpg?width=1600">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chorsu_Bazaar_in_Tashkent.jpg?width=900" alt="Chorsu bozori, Toshkent" loading="lazy">
+        <span>Chorsu bozori</span>
+      </button>
+      <button class="gallery-item card--clay" data-caption="Qizilqum sahrosi" data-image="https://commons.wikimedia.org/wiki/Special:FilePath/Kyzylkum_Desert_in_Uzbekistan.jpg?width=1600">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kyzylkum_Desert_in_Uzbekistan.jpg?width=900" alt="Qizilqum sahrosi" loading="lazy">
+        <span>Qizilqum sahrosi</span>
+      </button>
+      <button class="gallery-item card--teal" data-caption="Farg'ona vodiysi">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ferghana_Valley_UZB.JPG?width=900" alt="Farg'ona vodiysi" loading="lazy">
+        <span>Rishton kulolchiligi</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MAQOLALAR ============ -->
+<section class="section section-alt" id="blog">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Foydali maslahatlar</p>
+      <h2>So'nggi maqolalar</h2>
+    </div>
+
+    <div class="blog-grid">
+      <article class="blog-card reveal">
+        <span class="blog-date">14-iyun 2026</span>
+        <h3>Sayohat oldidan nimalarga e'tibor berish kerak?</h3>
+        <p>Yo'lga chiqishdan oldin hujjatlar, kiyim va byudjetni qanday rejalashtirish haqida qisqa qo'llanma.</p>
+        <a href="javascript:void(0)" class="read-more">O'qish →</a>
+      </article>
+      <article class="blog-card reveal">
+        <span class="blog-date">2-iyun 2026</span>
+        <h3>O'zbekistonda sayohat qilish uchun eng yaxshi fasl</h3>
+        <p>Bahor va kuz oylari nima uchun mahalliy va xorijiy sayohatchilar orasida eng mashhur davr hisoblanadi.</p>
+        <a href="javascript:void(0)" class="read-more">O'qish →</a>
+      </article>
+      <article class="blog-card reveal">
+        <span class="blog-date">20-may 2026</span>
+        <h3>Mahalliy taomlardan albatta tatib ko'ring</h3>
+        <p>Palov, somsa va shivit oshidan tashqari, har bir viloyatning o'ziga xos taomlari haqida.</p>
+        <a href="javascript:void(0)" class="read-more">O'qish →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ALOQA ============ -->
+<section class="section" id="contact">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <p class="eyebrow">Aloqa</p>
+      <h2>Sayohatingizni birga rejalashtiraylik</h2>
+      <p class="lead-text">Savolingiz bormi yoki tur haqida batafsil ma'lumot kerakmi? Formani to'ldiring — tez orada siz bilan bog'lanamiz.</p>
+
+      <ul class="contact-info">
+        <!-- Bu yerga haqiqiy manzil, telefon va emailingizni yozing -->
+        <li><strong>Manzil:</strong> Toshkent sh., Amir Temur ko'chasi</li>
+        <li><strong>Telefon:</strong> +998 90 123 45 67</li>
+        <li><strong>Email:</strong> info@ipakyolitour.uz</li>
+      </ul>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm" novalidate>
+      <div class="form-row">
+        <label for="name">Ismingiz</label>
+        <input type="text" id="name" name="name" placeholder="Ism Familiya" required>
+        <span class="form-error" data-for="name"></span>
+      </div>
+
+      <div class="form-row">
+        <label for="phone">Telefon yoki email</label>
+        <input type="text" id="phone" name="phone" placeholder="+998 90 123 45 67" required>
+        <span class="form-error" data-for="phone"></span>
+      </div>
+
+      <div class="form-row">
+        <label for="trip">Qaysi tur qiziqtiradi?</label>
+        <select id="trip" name="trip">
+          <option value="">Tanlang (ixtiyoriy)</option>
+          <option value="Samarqand">Samarqand</option>
+          <option value="Buxoro">Buxoro</option>
+          <option value="Xiva">Xiva</option>
+          <option value="Farg'ona vodiysi">Farg'ona vodiysi</option>
+          <option value="Nurota cho'li">Nurota cho'li</option>
+          <option value="Toshkent">Toshkent</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label for="message">Xabaringiz</label>
+        <textarea id="message" name="message" rows="4" placeholder="Nechta kishi, qaysi sanalar..."></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block">Xabar yuborish</button>
+      <p class="form-success" id="formSuccess" hidden>Rahmat! Xabaringiz qabul qilindi, tez orada bog'lanamiz.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a href="#home" class="logo logo--footer">
+        <span class="logo-mark"><svg viewBox="0 0 200 160"><use href="#dome-icon"/></svg></span>
+        <span class="logo-text">Ipak Yo'li<em>TOUR</em></span>
+      </a>
+      <p class="footer-tagline">O'zbekistonni mahalliylarcha his eting.</p>
+    </div>
+
+    <div>
+      <h4>Tezkor havolalar</h4>
+      <a href="#about">Biz haqimizda</a>
+      <a href="#packages">Turlar</a>
+      <a href="#services">Xizmatlar</a>
+      <a href="#contact">Aloqa</a>
+    </div>
+
+    <div>
+      <h4>Obuna bo'ling</h4>
+      <p class="footer-tagline">Yangi turlar va chegirmalar haqida birinchilardan xabardor bo'ling.</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" placeholder="Email manzilingiz" required>
+        <button type="submit" aria-label="Obuna bo'lish">→</button>
+      </form>
+      <p class="form-success" id="newsletterSuccess" hidden>Obuna bo'lganingiz uchun rahmat!</p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>&copy; <span id="year"></span> Ipak Yo'li Tour. Barcha huquqlar himoyalangan. <a class="credit-link" href="IMAGE-CREDITS.md">Rasmlar manbasi</a></p>
+  </div>
+</footer>
+
+<!-- ============ LIGHTBOX (galereya uchun modal) ============ -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightboxClose" aria-label="Yopish">&times;</button>
+  <div class="lightbox-body" role="dialog" aria-modal="true" aria-labelledby="lightboxCaption">
+    <img id="lightboxImage" src="" alt="">
+    <p id="lightboxCaption"></p>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
+
